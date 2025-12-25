@@ -3,7 +3,6 @@
 
 import random
 
-# Function to generate a random score and compare it with the high score stored in a file 
 def high_score():
     score=random.randint(1,100)
     with open("highscore.txt") as f:
